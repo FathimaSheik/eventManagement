@@ -1,0 +1,58 @@
+body{
+    background-image: url('https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjkzNi1iYWNrZ3JvdW5kLWFkai0wOC5qcGc.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .card {
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.7);
+  }
+  
+  .card-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  /* .btn-primary {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  } */
+  
+  /* .btn-primary:hover {
+    background-color: #0056b3;
+  } */
+  
+  .logintext {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .logintext:hover {
+    text-decoration: underline;
+  }
+  

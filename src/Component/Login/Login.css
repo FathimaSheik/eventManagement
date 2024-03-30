@@ -1,0 +1,59 @@
+body{
+    font-family: Arial;
+}
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url('https://img.freepik.com/premium-photo/minimalistic-abstract-blurred-background_938627-3734.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Increase the size of input box */
+.login-container input {
+    width: 300px;
+    height: 40px;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+/* Style the labels */
+.login-container label {
+    font-size: 18px;
+    margin-bottom: 5px;
+    width: 100px; /* Adjust width of labels */
+    display: inline-block;
+    text-align: left;
+    margin-right: 10px;
+}
+
+/* Center the login button */
+.login-container button {
+    width: 150px;
+    height: 40px;
+    margin-top: 20px; /* Adjust margin-top for spacing */
+}
+
+/* Adjust positioning of labels */
+.form-label {
+    margin-right: 10px;
+    width: 100px;
+}
+
+/* Center the form */
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.error-message {
+    color: red; /* Set text color to red */
+    font-weight: bold;
+    margin-top: 10px; /* Add some margin at the top for spacing */
+}
